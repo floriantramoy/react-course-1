@@ -1,4 +1,4 @@
-# React course 1
+# React course 1 Florian TRAMOY
 
 ## Getting started
 
