@@ -1,0 +1,94 @@
+.input {
+  display: flex;
+  width: 95%;
+  position: relative;
+  align-items: center;
+}
+
+.input__box {
+  width: 100%;
+  border-radius: 50px;
+  padding: 20px 30px;
+  font-size: 25px;
+  border: none;
+}
+
+
+.input_submit {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  margin: 12px;
+  border-radius: 70px;
+  right: 0;
+  border: none;
+  font-size: 15px;
+  background-color: #2f74c0;
+  color: white;
+}
+
+
+.container {
+  width: 95%;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.todos {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 15px;
+  background-color: lightblue;
+}
+
+
+.progress{
+  background-color: gold;
+}
+
+.remove {
+  background-color: maroon;
+}
+
+.todos__heading {
+  font-size: 30px;
+  /* text-align: center; */
+  color: white;
+}
+
+.todos__single {
+  display: flex;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 15px;
+  background-color: lightgray;
+
+}
+.dragcomplete{
+  background-color: lightcoral;
+}
+
+.dragprogress{
+  background-color: yellow;
+}
+.drag {
+  box-shadow: 0 0 20px black;
+}
+
+.todos__single--text {
+  flex: 1;
+  padding: 5px;
+  border: none;
+  font-size: 20px;
+}
+
+.icon {
+  margin-left: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
